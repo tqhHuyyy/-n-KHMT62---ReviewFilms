@@ -1,0 +1,83 @@
+.hot-film-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 300px;
+  width: 500px;
+  background-color: #f1e7e7;
+  padding: 16px 20px;
+  border-radius: 4px;
+  max-height: 90vh;
+  overflow-y: auto;
+  .flex-element {
+    padding-top: 5%;
+  }
+  .relative-parent {
+    position: relative;
+    .delete-img-btn {
+      position: absolute;
+      right: 14px;
+      border: none;
+      background: none;
+      &:active,
+      &:focus {
+        outline: none;
+      }
+      .icon-delete {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  .wrap-element {
+    margin-bottom: 10px;
+    margin: 5px;
+  }
+  .wrap-footer-section {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    button {
+      margin-left: 2rem;
+    }
+    * {
+      margin: 0;
+    }
+  }
+}
+
+.horizontal-list-container {
+  width: 100%;
+  background-color: rgb(208, 208, 208);
+  border-radius: 4px;
+  padding: 8px;
+  padding-right: 0;
+  overflow-x: auto;
+  display: flex;
+  .faked-item {
+    width: 8px;
+  }
+  .wrap-item-film {
+    width: 134px;
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    &:not(:last-child) {
+      margin-right: 4px;
+    }
+    img {
+      // height: 80px;
+      border-radius: 4px;
+      margin-bottom: 2px;
+    }
+    img.film-img {
+      width: 120px;
+    }
+    img.rectangle-img {
+      width: 160px;
+      height: auto;
+    }
+  }
+}

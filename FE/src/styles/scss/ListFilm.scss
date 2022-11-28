@@ -1,0 +1,113 @@
+.background {
+  background-color: black;
+}
+
+.wrapper1 {
+  text-align: start;
+  margin: 0 50px;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  .Text {
+    margin-top: 100px; //cần xem lại chỗ này
+  }
+  img {
+    // width: 100%;
+    border-radius: 10px;
+  }
+}
+
+h1 {
+  margin-left: 40px;
+} 
+
+.listFilm {
+  display: flex;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.film-item {
+  width: 20%;
+  margin: 0 2.5%;
+  img {
+    margin-bottom: 10px;
+    height: 450px;
+    transition: 0.3s cubic-bezier(0.39, 0.58, 0.57, 1);
+    object-fit: fill;
+    &:hover {
+      box-shadow: 0px 0px 7px #9e9e9e;
+    }
+  }
+  h3 {
+    height: auto;
+  }
+  .running-time {
+    padding-top: 20px;
+  }
+  .film-option {
+    display: flex;
+    line-height: 15px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    h5 {
+      color: #d7d7d7;
+      &:hover {
+        color: white;
+      }
+    }
+    .icon {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+    .infor {
+      font-size: 20px;
+      margin-left: 45px;
+      display: flex;
+      text-decoration: none;
+      h5 {
+        color: #d7d7d7;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}
+.page-admin {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  position: absolute;
+  bottom: -2%;
+  left: 50%;
+  transform: translateX(-50%);
+  .btn-page {
+    list-style: none;
+    margin-right: 5px;
+  }
+  .MuiPaginationItem-textSecondary.Mui-selected {
+    background-color: #e91e63;
+  }
+  .MuiPaginationItem-root {
+    color: rgb(0, 0, 0);
+    outline: 0;
+  }
+}
+.page {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin: 20px;
+  .btn-page {
+    list-style: none;
+    margin-right: 5px;
+  }
+  .MuiPaginationItem-textSecondary.Mui-selected {
+    background-color: #e91e63;
+  }
+  .MuiPaginationItem-root {
+    color: rgb(0, 0, 0);
+    outline: 0;
+  }
+}

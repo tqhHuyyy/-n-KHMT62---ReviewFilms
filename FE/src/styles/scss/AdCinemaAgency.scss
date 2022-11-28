@@ -1,0 +1,28 @@
+.agency-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 300px;
+  width: 500px;
+  background-color: #f1e7e7;
+  padding: 16px 20px;
+  border-radius: 4px;
+  max-height: 90vh;
+  overflow-y: auto;
+  .flex-element {
+    padding-top: 5%;
+  }
+  .wrap-footer-section {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    button {
+      margin-left: 2rem;
+    }
+    * {
+      margin: 0;
+    }
+  }
+}

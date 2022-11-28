@@ -1,0 +1,80 @@
+footer {
+  background-color: #000;
+  border-top: 1px solid #3c3c3c;
+  color: #fff;
+  padding-bottom: 10px;
+  .footer-content {
+    padding: 15px 45px;
+    &-logo {
+      .logo {
+        display: flex;
+        img {
+          max-width: 200px;
+          height: auto;
+          object-fit: contain;
+          cursor: pointer;
+        }
+      }
+    }
+    &-cinema,
+    &-film,
+    &-contact {
+      color: #fff;
+      .title {
+        text-align: start;
+        font-weight: bold;
+        margin-bottom: 7px;
+        font-size: 25px;
+      }
+      p {
+        text-align: start;
+        margin-bottom: 5px;
+        font-size: 20px;
+        color: #fff;
+        &:hover {
+          font-weight: 600;
+        }
+      }
+    }
+    .link-film {
+      display: inline-block;
+      li {
+        color: white;
+        list-style: none;
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
+          transition: all 0.3s;
+        }
+        &:hover {
+          font-weight: 600;
+        }
+      }
+    }
+    .footer-content-contact {
+      display: flex;
+      flex-direction: column;
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        transition: all 0.1s;
+      }
+      .icon {
+        svg {
+          margin: 15px 15px 0 0;
+          font-size: 1.5em;
+          transition: 0.3;
+        }
+        svg:nth-child(n):hover {
+          transition: all 0.2s;
+          color: #405de6;
+        }
+      }
+      a:hover {
+        font-weight: 600;
+      }
+    }
+  }
+}

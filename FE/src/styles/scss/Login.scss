@@ -1,0 +1,112 @@
+.wrapper-login {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/680/971/727/movies-deadpool-wallpaper-preview.jpg);
+  width: 100vw;
+  height: 100vh;
+  //   position: relative;
+  background-size: cover;
+  .blur {
+    width: 100%;
+    height: 100vh;
+    background: #1816165e;
+    .logo-login {
+      margin-left: 60px;
+    }
+    .login-body {
+      background: white;
+      height: 56%;
+      width: 27%;
+      margin: 0 auto;
+      border-radius: 10px;
+      .text-login {
+        padding-top: 30px;
+        font-weight: bolder;
+        color: #474747;
+        margin-bottom: 10%;
+        h3 {
+          text-align: center;
+        }
+      }
+      .login-fail-err {
+        display: inline-block;
+        position: relative;
+        color: tomato;
+        transform: translate(-50%);
+        left: 50%;
+        top: -6%;
+      }
+      .user-login {
+        text-align: start;
+        margin: 0 11%;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+        position: relative;
+        .err-message {
+          font-size: 11px;
+          color: red;
+          position: absolute;
+          width: fit-content;
+          bottom: -20px;
+          right: 0;
+        }
+      }
+
+      .input-login {
+        border: none;
+        width: 90%;
+        background-color: transparent !important;
+        .style {
+          background-color: white;
+          color: black;
+        }
+        &:focus {
+          outline: none;
+        }
+      }
+
+      .icon-login {
+        margin-right: 10px;
+      }
+      .pass-login {
+        margin-top: 10%;
+      }
+      .submit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 75%;
+        height: 10%;
+        color: white;
+        background: #f54245;
+        margin: 5% auto auto;
+        border-radius: 15px;
+        button {
+          outline: none;
+          color: transparent;
+        }
+        a {
+          text-decoration: none;
+          color: white;
+          text-align: center;
+        }
+        &:hover {
+          background: red;
+          cursor: pointer;
+        }
+      }
+      .loadingLogin {
+        img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+      .checkbox-login {
+        padding-top: 5%;
+        text-align: start;
+        margin: 0 11%;
+      }
+      .checkbox-label {
+        padding-left: 10px;
+      }
+    }
+  }
+}

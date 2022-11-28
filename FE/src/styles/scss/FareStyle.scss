@@ -1,0 +1,24 @@
+.fareContainer {
+    background-color: #070609;
+    .content {
+        padding-top: 30px;
+        color: #b6acac;
+        font-size: 30px;
+        text-align: left;
+        margin-left: 50px;
+        border-bottom: 1px solid #6a6a6a;
+        margin-right: 50px;
+    }
+    .fare-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em 0;
+        .img-container {
+            width: 70%;
+            height: 400px;
+            border-radius: 20px;
+        }
+    }
+}
+

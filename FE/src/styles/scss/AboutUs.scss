@@ -1,0 +1,66 @@
+.wrapper {
+  margin: 0;
+  background: black;
+}
+
+.story {
+  width: 85%;
+  margin: 0 auto;
+  text-align: start;
+  h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+  }
+}
+.story-item {
+  display: flex;
+  margin-top: 20px;
+  border-top: 1px solid #696969;
+  padding-top: 40px;
+}
+.story-image {
+  width: 45%;
+  margin-right: 40px;
+  border-radius: 10px;
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+.story-text {
+  text-align: start;
+  width: 55%;
+  font-size: 20px;
+  color: white;
+}
+.reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: start;
+  padding-bottom: 40px;
+  .story-image {
+    margin-right: 0px;
+    margin-left: 40px;
+  }
+}
+.contact {
+  text-align: end;
+}
+.hero {
+  div[class*="swiper-button-"] {
+    color: white;
+    &:after {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+  }
+  .slide-img img {
+    height: 100vh;
+  }
+  .overlay {
+    width: 100%;
+    background: #00000052;
+  }
+}
